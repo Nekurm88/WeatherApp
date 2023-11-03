@@ -76,7 +76,7 @@ export default async function currentWeather () {
     
     const { lat, lon, isError } = await getLatLon()
     if (isError) return console.log('ha ocurrido un error ubicandote')
-    console.log(lat, lon)
+    //console.log(lat, lon)
 
 
     //const latlon = getCurrentPosition()
